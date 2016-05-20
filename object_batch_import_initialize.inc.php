@@ -9,7 +9,7 @@
 print "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \n" ;
 print "CONFIGURATION \n" ;
 
-require_once("../ca/providence/setup.php");
+require_once("/home/www/ca.jewishmuseum.cz/setup.php");
 	$_SERVER['HTTP_HOST'] = 'ca.localhost';
 
 	require_once(__CA_LIB_DIR__.'/core/Db.php');
